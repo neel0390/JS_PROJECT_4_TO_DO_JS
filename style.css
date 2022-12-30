@@ -128,3 +128,40 @@ body {
   text-align: center;
   margin-left: 76px;
 }
+
+.card:hover {
+  box-shadow: inset 9px 11px 5px #cdb9b9;
+}
+
+#oneDiv {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  transform: translate(-50%, -50%);
+  /* visibility: hidden; */
+  /* opacity: 0; */
+  border: 1px solid orangered;
+  border-radius: 10px;
+}
+#headeroneDiv {
+  display: flex;
+  color: white;
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  width: 100%;
+  height: 50px;
+  /* background-color: white; */
+  transform: translate(-50%, -50%);
+  /* visibility: hidden; */
+  /* opacity: 0; */
+  border: 1px solid orangered;
+  border-radius: 10px;
+  font-size: 26px;
+}
+#backArrow {
+  margin-right: 10px;
+}
